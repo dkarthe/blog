@@ -42,6 +42,11 @@ permalink: /:title
 plugins: [jekyll-paginate, jekyll-feed, jemoji]
 exclude: [vendor]
 
+# Search
+algolia:
+  application_id: EYG3LNBQG5
+  index_name:     blog # Can be replaced with whatever name you want
+
 feed:
   path: feed.xml
 
